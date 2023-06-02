@@ -1,4 +1,7 @@
 version = 1
 
 [[analyzers]]
-name = "terraform"
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/pankaj-deepsource/AWS-IAM-Privilege-Escalation"
